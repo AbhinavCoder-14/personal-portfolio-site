@@ -1,0 +1,111 @@
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+}
+
+
+
+
+
+
+#navbar{
+    border: 2px solid blue;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #111111;
+    padding: 0px 18px;
+}
+
+
+.nav-left{
+    width: 24%;
+    height: 10vh;
+}
+
+.nav-left .logo{
+    /* height: 100px; */
+    background: url(/images/logo-potfolio-right.png);
+    height: 61px;
+    width: 61px;
+    margin: auto;
+    padding: auto;
+    border: 1px solid #b5b5b5;
+    border-radius: 31px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.nav-center{
+    width: 43%;
+
+}
+
+
+.nav-center ul li {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    padding: 5px;
+}
+
+
+.nav-center ul  {
+    display: flex;
+    justify-content: space-evenly;
+    /* align-content: center; */
+    align-items: center;
+    margin: auto;
+
+}
+
+.nav-center ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+
+    font-weight: 300;
+}
+
+.nav-right{
+    width: 29%;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+#github-logo{
+    background: url(/images/github.png) center center/cover;
+    height: 40px;
+    width : 40px;
+}
+#linkedin-logo{
+    background: url(/images/linkedin-logo.png) center center/cover;
+    height: 40px;
+    width : 40px;
+}
+#insta-logo{
+    background: url(/images/instagram-logo.png) center center/cover;
+    height: 40px;
+    width : 40px;
+
+}
+#tweeter-logo{
+    background: url(/images/twitter-logo.png) center center/cover;
+    
+    height: 40px;
+    width : 40px;
+}
