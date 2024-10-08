@@ -8,28 +8,57 @@
 
 body{
     box-sizing: border-box;
-    font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    font-family: "proxima nova light", "Helvetica Neue", Helvetica;
 }
 
+
+.invert1{
+    filter: invert(1);
+}
 
 
 
 
 
 #navbar{
-    border: 2px solid blue;
-    height: 12vh;
+    /* position: relative; */
+    height: 13vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     background: #111111;
-    padding: 0px 18px;
+    padding: 0px 28px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.open-trans{
+    animation: topcome .9s cubic-bezier(0.82, 1.07, 0.89, 1.05);
+    animation-delay: .4s;
+    /* transition: transform .9s ease-in-out;
+    transition-delay: 2s;
+    transform: translateY(100%); */
+    
+}
+
+
+
+@keyframes topcome{
+    from{
+        transform: translateY(-13vh);
+    }
+    to{
+        transform: translateY(0vh);  
+    }
 }
 
 
 .nav-left{
     width: 24%;
     height: 10vh;
+    display: flex;
+    align-items: center;
+
 }
 
 .nav-left .logo{
@@ -39,12 +68,18 @@ body{
     width: 61px;
     margin: auto;
     padding: auto;
-    border: 1px solid #b5b5b5;
+    border: 1px solid #000000;
     border-radius: 31px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
+}
+
+.nav-left .logo:hover{
+    transition: opacity .4s ease-in-out;
+    cursor: pointer;
+    opacity: .8;
 }
 
 .nav-center{
@@ -57,7 +92,10 @@ body{
     list-style: none;
     text-decoration: none;
     display: flex;
-    padding: 5px;
+}
+
+.nav-center ul li a{
+    padding: 20px 0px;
 }
 
 
@@ -73,39 +111,65 @@ body{
 .nav-center ul li a{
     text-decoration: none;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
 
     font-weight: 300;
 }
 
+.nav-center ul li a:hover{
+    transition: color .4s ease-in-out;
+    color: rgb(151, 149, 149);
+}
+
+
 .nav-right{
-    width: 29%;
+    width: 22%;
     height: 7vh;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
 
 }
 
-#github-logo{
+
+
+
+
+.github-logo{
     background: url(/images/github.png) center center/cover;
-    height: 40px;
-    width : 40px;
+    height: 35px;
+    width : 35px;
 }
-#linkedin-logo{
+.linkedin-logo{
     background: url(/images/linkedin-logo.png) center center/cover;
-    height: 40px;
-    width : 40px;
+    height: 35px;
+    width : 35px;
 }
-#insta-logo{
+.insta-logo{
     background: url(/images/instagram-logo.png) center center/cover;
-    height: 40px;
-    width : 40px;
+    height: 35px;
+    width : 35px;
 
 }
-#tweeter-logo{
+.tweeter-logo{
     background: url(/images/twitter-logo.png) center center/cover;
-    
-    height: 40px;
-    width : 40px;
+    height: 35px;
+    width : 35px;
 }
+
+
+
+.right-logo-trans:hover{
+    cursor: pointer;
+    transition: filter .4s ease-in-out;
+    filter: invert(.7);
+}
+
+
+
+
+
+
+
+ 
