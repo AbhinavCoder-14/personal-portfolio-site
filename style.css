@@ -1,175 +1,385 @@
-
-
-
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-body{
-    box-sizing: border-box;
-    font-family: "proxima nova light", "Helvetica Neue", Helvetica;
+body {
+  box-sizing: border-box;
+  font-family: "proxima nova light", "Helvetica Neue", Helvetica;
 }
 
-
-.invert1{
-    filter: invert(1);
+.invert1 {
+  filter: invert(1);
 }
 
-
-
-
-
-#navbar{
-    /* position: relative; */
-    height: 13vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background: #111111;
-    padding: 0px 28px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+#navbar {
+  position: relative;
+  height: 13vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #111111;
+  padding: 0px 28px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+  z-index: 0;
 }
 
-
-.open-trans{
-    animation: topcome .9s cubic-bezier(0.82, 1.07, 0.89, 1.05);
-    animation-delay: .4s;
-    /* transition: transform .9s ease-in-out;
+.open-trans {
+  animation: topcome 0.9s cubic-bezier(0.82, 1.07, 0.89, 1.05);
+  animation-delay: 0.4s;
+  /* transition: transform .9s ease-in-out;
     transition-delay: 2s;
     transform: translateY(100%); */
-    
 }
 
-
-
-@keyframes topcome{
-    from{
-        transform: translateY(-13vh);
-    }
-    to{
-        transform: translateY(0vh);  
-    }
+@keyframes topcome {
+  from {
+    transform: translateY(-13vh);
+  }
+  to {
+    transform: translateY(0vh);
+  }
 }
 
-
-.nav-left{
-    width: 24%;
-    height: 10vh;
-    display: flex;
-    align-items: center;
-
+.nav-left {
+  width: 24%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
 }
 
-.nav-left .logo{
-    /* height: 100px; */
-    background: url(/images/logo-potfolio-right.png);
-    height: 61px;
-    width: 61px;
-    margin: auto;
-    padding: auto;
-    border: 1px solid #000000;
-    border-radius: 31px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
+.nav-left .logo {
+  /* height: 100px; */
+  background: url(/images/logo-potfolio-right.png);
+  height: 61px;
+  width: 61px;
+  margin: auto;
+  padding: auto;
+  /* border: 1px solid #000000; */
+  border-radius: 31px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.nav-left .logo:hover{
-    transition: opacity .4s ease-in-out;
-    cursor: pointer;
-    opacity: .8;
+.nav-left .logo:hover {
+  transition: opacity 0.4s ease-in-out;
+  cursor: pointer;
+  opacity: 0.8;
 }
 
-.nav-center{
-    width: 43%;
-
+.nav-center {
+  width: 43%;
 }
-
 
 .nav-center ul li {
-    list-style: none;
-    text-decoration: none;
-    display: flex;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
 }
 
-.nav-center ul li a{
-    padding: 20px 0px;
+.nav-center ul li a {
+  padding: 20px 0px;
 }
 
-
-.nav-center ul  {
-    display: flex;
-    justify-content: space-evenly;
-    /* align-content: center; */
-    align-items: center;
-    margin: auto;
-
+.nav-center ul {
+  display: flex;
+  justify-content: space-evenly;
+  /* align-content: center; */
+  align-items: center;
+  margin: auto;
 }
 
-.nav-center ul li a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
+.nav-center ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
 
-    font-weight: 300;
+  font-weight: 400;
 }
 
-.nav-center ul li a:hover{
-    transition: color .4s ease-in-out;
-    color: rgb(151, 149, 149);
+.nav-center ul li a:hover {
+  transition: color 0.4s ease-in-out;
+  color: rgb(151, 149, 149);
 }
 
-
-.nav-right{
-    width: 22%;
-    height: 7vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-
+.nav-right {
+  width: 22%;
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 0px; /*ul and li have default border margin of 1 rem that why i overwrite it */
 }
 
+/* 
+.github-logo font-0 img{
+    visibility: hidden;
+} */
 
-
-
-
-.github-logo{
+/* .github-logo a{
     background: url(/images/github.png) center center/cover;
     height: 35px;
     width : 35px;
-}
-.linkedin-logo{
+} */
+/* .linkedin-logo a{
     background: url(/images/linkedin-logo.png) center center/cover;
     height: 35px;
     width : 35px;
 }
-.insta-logo{
+.insta-logo a{
     background: url(/images/instagram-logo.png) center center/cover;
     height: 35px;
     width : 35px;
 
 }
-.tweeter-logo{
+.tweeter-logo a{
     background: url(/images/twitter-logo.png) center center/cover;
     height: 35px;
     width : 35px;
+} */
+
+.right-logo-trans:hover {
+  cursor: pointer;
+  transition: filter 0.4s ease-in-out;
+  filter: invert(0.7);
+}
+
+/* profile section */
+
+.front-profile {
+  /* padding: 0rem 3rem; */
+
+  /* border: 2px solid black; */
+  height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.024) url("/images/white-background.jpg")
+    no-repeat center center/cover;
+
+  background-blend-mode: darken;
+}
+
+.left-Programming-side {
+  cursor: pointer;
+  /* border: 2px solid black; */
+  height: 80vh;
+  width: 32%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+.leftText {
+  font-weight: 700;
+  margin: 0px;
+  font-size: 43px;
+  margin: 10px 0px;
+}
+
+.center-Profile-side {
+  cursor: pointer;
+
+  height: 80vh;
+  /* border: 2px solid blue; */
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-Profile-side .profile-logo {
+  border: 3px solid rgb(0, 0, 0);
+  /* box-shadow: 2px 2px 6px 4px rgb(218 225 196); */
+  border-radius: 160px;
+  height: 50vh;
+  width: 93%;
+
+  /* margin: auto 100px; */
+  background: url(/images/logo-potfolio-right.png) no-repeat center center /
+    cover;
+}
+
+.profile-logo:hover{
+
+  transition: background .4s ease-in-out ;
+  background: rgba(0, 0, 0, 0.2) url(/images/logo-potfolio-right.png) no-repeat center center/cover;
+  background-blend-mode: darken;
+
+
+}
+
+.name-section {
+  font-weight: 700;
+  font-size: 45px;
+
+  margin: 1.5rem 0rem 0.3rem;
+}
+.tagline {
+  margin: 0px;
+  padding: 0px 36px;
+  font-size: 17px;
+}
+
+.right-Developer-side {
+  cursor: pointer;
+
+  /* border: 2px solid red; */
+  height: 80vh;
+  width: 32%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+/* .right-Developer-side:hover {
+  /* transform: translateX(10%); */
+
+
+.rightText {
+  margin: 10px 0px;
+  font-size: 45px;
+
+  font-weight: 700;
+
+  /* margin: auto ; */
+}
+
+.color-black {
+  color: black;
+}
+
+.btn-class{
+
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+.btn1 {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #000000; /* Button color */
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  
+  cursor: pointer;
+  /* visibility: hidden; */
+  /* display: none */
+}
+.btn1{
+    margin: 0px 10px;
+}
+
+.btn1:hover{
+    transition: color .4s ease-in-out;
+    color: rgb(151, 149, 149);
+    text-decoration: none;
+
+}
+
+
+.skills{
+}
+
+.skills-title{
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  margin: 20px 0px;
 }
 
 
 
-.right-logo-trans:hover{
-    cursor: pointer;
-    transition: filter .4s ease-in-out;
-    filter: invert(.7);
+.skills-logo-container{
+  height: 30vh;
+  display: flex;
+  padding: 0 50px;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 
+.skill-logo{
+  border: 2px solid rgba(136, 133, 133, 0.685);
+  height: 75%;
+  width: 12%;
+  border-radius: 12px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
 
+.skill-img-section{
+  width: 60% ;
+  margin: 5px 0px;
+  height: 65%;
+}
+
+.skill-img-section{
+  border-radius: 48px;
 
 
+}
 
- 
+#skill-logo3 .skill-img-section {
+  background: url(images/tailcss.png) no-repeat center center/cover;
+
+}
+
+#skill-logo4 .skill-img-section {
+  background: url(images/logo-potfolio-right.png) no-repeat center center/cover;
+
+}
+
+
+#skill-logo1 .skill-img-section {
+  background: url(images/python-logo.png) no-repeat center center/cover;
+
+}
+
+#skill-logo3 .skill-img-section {
+  background: url(images/tailcss.png) no-repeat center center/cover;
+
+}
+
+#skill-logo2 .skill-img-section {
+  background: url(images/Unofficial_JavaScript_logo_2.svg) no-repeat center center/cover;
+
+}
+
+#skill-logo5 .skill-img-section{
+
+background: url(images/css-logo.png) no-repeat center center/cover;
+
+
+}
+.skill-name{
+  margin: 5px 0px ;
+  font-size: 18px;
+  color: black;
+  font-weight: 600;
+}
+
+.skill-logo:hover{
+  cursor: pointer;
+  transition: background-color .5s ease-out,box-shadow .5s ease-out;
+  background-color: #f0f0f0;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+
