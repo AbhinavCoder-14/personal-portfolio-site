@@ -414,6 +414,135 @@ body {
 
 
 
+.project-container{
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 190vh;
+  align-items: center;
+
+  
+}
+
+.project-1{
+  width: 90%;
+  border: 1px solid rgb(27, 27, 27);
+
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  background-color: #f6f7f8;
+  margin: 20px 0px;
+  border-radius: 20px;
+  transition: box-shadow .4s ease-in-out;
+}
+
+
+.project-info{
+  width: 60%;
+  /* border: 2px solid rgb(39, 36, 219); */
+}
+
+
+.project-img{
+  width: 40%;
+  /* border: 2px solid rgb(0, 217, 255); */
+  
+}
+
+.project-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px 20px;
+}
+
+.project-title h1{
+  font-size: 39px;
+  font-weight: 700;
+  margin: 20px 0px;
+  color: #000;
+}
+
+
+.project-title p{
+  font-size: 29px;
+  padding: 0px 40px;
+}
+
+.project-img{
+  margin: 9px;
+  border-radius: 15px;
+}
+
+
+#project-1 .project-img{
+
+  background: url("images/pexels-vanessa-loring-7869134.jpg") center center/cover;
+
+}
+
+#project-2 .project-img{
+
+  background: url("images/pexels-mikhail-nilov-9242845.jpg") center center/cover;
+
+}
+
+
+#project-3 .project-img{
+
+  background: url("images/pexels-mikhail-nilov-7988747.jpg") center center/cover;
+
+}
+
+#project-4 .project-img{
+
+  background: url("images/pexels-cottonbro-4705623.jpg") center center/cover;
+
+}
+
+.project-info{
+  padding: 0px 10px;
+  text-align: center;
+}
+
+
+.project-info p{
+  font-size: 19px;
+  font-weight: 500;
+  margin: 21px 0px;
+}
+.project-info h1{
+  margin: 20px 0px;
+  
+}
+
+.project-info a{
+  background-color: black;
+  color: rgb(255, 255, 255);
+  padding: 10px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: color .4s ease-in-out;
+  margin: 10px 0px;
+}
+
+.project-info a:hover{
+
+  color: rgb(179, 176, 176);
+  text-decoration: none;
+
+}
+
+.project-1:hover{
+
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+
+}
+
 
 
 
