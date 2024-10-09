@@ -1,50 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hover Button Visibility</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Wrap Example</title>
     <style>
-      /* Container styles */
-      .container {
-        width: 300px;
-        height: 200px;
-        background-color: #3498db;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        border-radius: 10px;
-        margin: 50px;
-      }
+        /* Flex container */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between; /* Adds spacing between items */
+            gap: 10px; /* Optional, to create space between items */
+        }
 
-      /* Button initially hidden */
-      .container button {
-        opacity: 0;
-        visibility: hidden;
-        transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
-      }
+        /* Flex items */
+        .item {
+            background-color: #3498db;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            flex: 1 1 200px; /* Flexible basis of 200px and allows growing */
+            border-radius: 8px;
+        }
 
-      /* Hovering over container makes the button visible */
-      .container:hover button {
-        opacity: 1;
-        visibility: visible;
-      }
-
-      /* Button styles */
-      .container button {
-        padding: 10px 20px;
-        background-color: #e74c3c;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-      }
+        /* Media query for responsiveness */
+        @media (max-width: 600px) {
+            .item {
+                flex: 1 1 100%; /* Items take full width on small screens */
+            }
+        }
     </style>
-  </head>
-  <body>
-    <div class="container">
-      <button>Click Me</button>
-    </div>
-  </body>
+</head>
+<body>
+
+<div class="container">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+    <div class="item">Item 4</div>
+    <div class="item">Item 5</div>
+</div>
+
+</body>
 </html>
