@@ -82,9 +82,24 @@
   .front-profile {
     height: 67vh;
   }
+
+  .right-Developer-side:hover .btn1 {
+    visibility: visible;
+    opacity: 1;
+    /* transition: none; */
+  }
+  /* .left-Programming-side:hover .btn1 {
+    visibility: visible;
+    opacity: 1;
+    transition: none;
+  } */
 }
 
 /* For mobiles phones */
 
-@media only screen and (max-width: 550px) {
+@media only screen and (min-height: 650px) {
+    .skills-logo-container .skill-logo {
+        height: 21vw;
+      }
+
 }
