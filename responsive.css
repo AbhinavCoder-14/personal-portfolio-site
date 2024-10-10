@@ -108,3 +108,87 @@
     }
 
 }
+
+
+@media only screen and (max-width: 568px) {
+
+  .responsive-work{
+    visibility: visible;
+  }
+
+  .responsive-work{
+    visibility: visible;
+  }
+
+
+  .right-Developer-side{
+    visibility: collapse;
+  }
+
+  .left-Programming-side{
+    visibility: collapse;
+  }
+
+  .btn1{
+    visibility: collapse;
+  }
+
+  .center-Profile-side{
+    transition: transform .4s ease-in-out;
+  }
+
+  .left-transform{
+    transform: translateX(-2%);
+  }
+
+  .btn1 a{
+    font-size: 10px;
+    padding: 0px;
+  }
+
+  .right-Developer-side{
+    width: 50%;
+    /* border: 2px solid red; */
+    visibility: visible;
+    padding: 4px;
+  }
+  .name-section{
+    font-size: 16px;
+  }
+
+  .left-Programming-side{
+    width: 0%;
+  }
+
+  .tagline{
+    padding: 0px 5px;
+    font-size: 10px;
+  }
+
+  .responsive-work{
+    visibility: collapse;
+  }
+
+  .skill-name{
+    font-size: 11px;
+  }
+
+  .skills-logo-container .skill-logo {
+    height: 25vw;
+    width: 95px;
+}
+
+
+  .skills-title{
+    font-size: 24px;
+  }
+
+
+
+
+
+
+
+}
+
+
