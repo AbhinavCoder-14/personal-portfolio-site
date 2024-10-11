@@ -6,7 +6,7 @@
   }
 
   .skills-logo-container .skill-logo {
-    height: 21vh;
+    width:  13vh;
   }
 
   .leftText {
@@ -97,99 +97,90 @@
 
 /* For mobiles phones */
 
-@media only screen and (min-height: 650px) {
-    .skills-logo-container .skill-logo {
-        height: 21vw;
-      }
+@media only screen and (min-height: 650px) and (max-width:1100px) {
+  .skills-logo-container .skill-logo {
+    width: 17vw;
+  }
 
-
-    .front-profile{
-        height: 66vw;
-    }
-
+  .front-profile {
+    height: 66vw;
+  }
 }
 
-
 @media only screen and (max-width: 568px) {
-
-  .responsive-work{
+  .responsive-work {
     visibility: visible;
   }
 
-  .responsive-work{
+  .responsive-work {
     visibility: visible;
   }
 
-
-  .right-Developer-side{
+  .right-Developer-side {
     visibility: collapse;
   }
 
-  .left-Programming-side{
+  .left-Programming-side {
     visibility: collapse;
   }
 
-  .btn1{
+  .btn1 {
     visibility: collapse;
   }
 
-  .center-Profile-side{
-    transition: transform .4s ease-in-out;
+  .center-Profile-side {
+    transition: transform 0.4s ease-in-out;
   }
 
-  .left-transform{
+  .left-transform {
     transform: translateX(-2%);
   }
 
-  .btn1 a{
+  .btn1 a {
     font-size: 10px;
     padding: 0px;
   }
 
-  .right-Developer-side{
+  .right-Developer-side {
     width: 50%;
     /* border: 2px solid red; */
     visibility: visible;
     padding: 4px;
   }
-  .name-section{
+  .name-section {
     font-size: 16px;
   }
 
-  .left-Programming-side{
+  .left-Programming-side {
     width: 0%;
   }
 
-  .tagline{
+  .tagline {
     padding: 0px 5px;
     font-size: 10px;
   }
 
-  .responsive-work{
+  .responsive-work {
     visibility: collapse;
   }
 
-  .skill-name{
+  .skill-name {
     font-size: 11px;
   }
 
   .skills-logo-container .skill-logo {
     height: 25vw;
     width: 95px;
-}
+  }
 
-
-  .skills-title{
+  .skills-title {
     font-size: 24px;
   }
 
-
-
-  .project-container{
+  .project-container {
   }
 
-
-  .project-1{
+  .project-1 {
     display: flex;
     flex-direction: column;
     padding: 0px;
@@ -197,47 +188,59 @@
 
   .nav-left {
     width: 25%;
+  }
+
+  .nav-center {
+    margin: 4px;
+    width: 100%;
+  }
+
+  .nav-right {
+    width: 60%;
+  }
+
+  #navbar {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-left .logo {
+    height: 49px;
+    width: 49px;
+  }
+
+  .nav-center ul li a {
+    font-size: 14px;
+  }
+
+  .nav-right {
+    height: 5vh;
+  }
+
+  .Main-Content {
+    margin-bottom: 54px;
+  }
+
+  .footer-section {
+    font-size: 13px;
+    /* padding: 24px 0px; */
+  }
+
+  .footer-section {
+    height: 14vh;
+    flex-wrap: wrap;
+  }
+
+  .footer-section p {
+    text-align: center;
+    margin: auto;
+  }
+
+  .footer-right{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
 }
-
-.nav-center {
-  margin: 4px;
-  width: 100%;
-}
-
-
-.nav-right {
-  width: 60%;
-
-}
-
-#navbar {
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}	
-
-
-.nav-left .logo{
-  height: 49px;
-  width: 49px;
-}
-
-.nav-center ul li a{
-  font-size: 14px;
-}
-
-.nav-right{
-  height: 5vh;
-}
-
-
-
-
-
-
-
-
-
-}
-
-
