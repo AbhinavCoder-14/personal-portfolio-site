@@ -176,7 +176,7 @@ body {
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  background: rgba(255, 255, 255, 0.024) url("images/white-background.jpg")
+  background: rgb(219 219 219 / 17%) url("images/white-background.jpg")
     no-repeat center center/cover;
 
   background-blend-mode: darken;
@@ -360,7 +360,7 @@ body {
 .skill-logo {
   border: 2px solid rgba(0, 0, 0, 0.685);
   height: 16vw;
-  width: 171px;
+  width: 13vw;
   border-radius: 12px;
   display: flex;
   flex-direction: column;
