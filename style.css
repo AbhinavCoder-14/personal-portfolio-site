@@ -7,20 +7,17 @@ body {
   box-sizing: border-box;
   font-family: "proxima nova light", "Helvetica Neue", Helvetica;
   animation: opacity-trans 1s ease-in;
-
 }
 
 @keyframes opacity-trans {
-  from{
+  from {
     opacity: 0;
   }
 
-  to{
+  to {
     opacity: 1;
   }
 }
-
-
 
 .invert1 {
   filter: invert(1);
@@ -156,9 +153,8 @@ body {
     height: 35px;
     width : 35px;
     } */
-.right-logo-trans{
-    transition: filter 0.4s ease-in-out;
-      
+.right-logo-trans {
+  transition: filter 0.4s ease-in-out;
 }
 .right-logo-trans:hover {
   cursor: pointer;
@@ -176,8 +172,7 @@ body {
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  background: rgb(219 219 219 / 17%) url("images/white-background.jpg")
-    no-repeat center center/cover;
+  background: rgb(219 219 219 / 17%) ;
 
   background-blend-mode: darken;
 }
@@ -196,19 +191,18 @@ body {
   align-items: center;
 }
 
-.responsive-work{
+.responsive-work {
   visibility: collapse;
   background-color: white;
   color: black;
   font-size: 30px;
 }
 
-.responsive-work{
+.responsive-work {
   visibility: collapse;
   background-color: white;
   color: black;
   font-size: 30px;
-
 }
 .leftText {
   font-weight: 700;
@@ -247,11 +241,11 @@ body {
   border-radius: 48%;
   height: 26vw;
   width: 26vw;
-  background: url(images/logo-potfolio-right.png) no-repeat center center / cover;
+  background: url(images/logo-potfolio-right.png) no-repeat center center /
+    cover;
   transition: background 0.4s ease-in-out;
 }
 .profile-logo:hover {
-
   background: rgba(0, 0, 0, 0.2) url(images/logo-potfolio-right.png) no-repeat
     center center/cover;
   background-blend-mode: darken;
@@ -353,8 +347,6 @@ body {
   display: flex;
   padding: 0 50px;
   justify-content: space-evenly;
-  
-  
 }
 
 .skill-logo {
@@ -372,7 +364,7 @@ body {
 .skill-img-section {
   margin: 5px 0px;
   width: 9vw;
-  height: 9vw; 
+  height: 9vw;
 }
 
 .skill-img-section {
@@ -445,20 +437,16 @@ body {
   color: black;
 }
 
-
-
-.project-container{
+.project-container {
   margin: 20px 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 190vh;
   align-items: center;
-
-  
 }
 
-.project-1{
+.project-1 {
   width: 90%;
   border: 1px solid rgb(27, 27, 27);
 
@@ -468,23 +456,20 @@ body {
   background-color: #f5f5f5;
   margin: 20px 0px;
   border-radius: 20px;
-  transition: box-shadow .4s ease-in-out,transform .4s ease-in-out;
+  transition: box-shadow 0.4s ease-in-out, transform 0.4s ease-in-out;
 }
 
-
-.project-info{
+.project-info {
   width: 60%;
   /* border: 2px solid rgb(39, 36, 219); */
 }
 
-
-.project-img{
+.project-img {
   width: 40%;
   /* border: 2px solid rgb(0, 217, 255); */
-  
 }
 
-.project-title{
+.project-title {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -493,95 +478,75 @@ body {
   padding: 0px 20px;
 }
 
-.project-title h1{
+.project-title h1 {
   font-size: 39px;
   font-weight: 700;
   margin: 20px 0px;
   color: #000;
 }
 
-
-.project-title p{
+.project-title p {
   font-size: 29px;
   padding: 0px 40px;
 }
 
-.project-img{
+.project-img {
   margin: 9px;
   border-radius: 15px;
 }
 
-
-#project-1 .project-img{
-
-  background: url("images/pexels-vanessa-loring-7869134.jpg") center center/cover;
-
+#project-1 .project-img {
+  background: url("images/pexels-vanessa-loring-7869134.jpg") center
+    center/cover;
 }
 
-#project-2 .project-img{
-
+#project-2 .project-img {
   background: url("images/pexels-mikhail-nilov-9242845.jpg") center center/cover;
-
 }
 
-
-#project-3 .project-img{
-
+#project-3 .project-img {
   background: url("images/pexels-mikhail-nilov-7988747.jpg") center center/cover;
-
 }
 
-#project-4 .project-img{
-
+#project-4 .project-img {
   background: url("images/pexels-cottonbro-4705623.jpg") center center/cover;
-
 }
 
-.project-info{
+.project-info {
   padding: 0px 10px;
   text-align: center;
 }
 
-
-.project-info p{
+.project-info p {
   font-size: 19px;
   font-weight: 500;
   margin: 21px 0px;
 }
-.project-info h1{
+.project-info h1 {
   margin: 20px 0px;
-  
 }
 
-.project-info a{
+.project-info a {
   background-color: black;
   color: rgb(255, 255, 255);
   padding: 10px 10px;
   border-radius: 4px;
   text-decoration: none;
-  transition: color .4s ease-in-out;
+  transition: color 0.4s ease-in-out;
   margin: 10px 0px;
 }
 
-.project-info a:hover{
-
+.project-info a:hover {
   color: rgb(179, 176, 176);
   text-decoration: none;
-
 }
 
-.project-1:hover{
-
+.project-1:hover {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
   transform: scale(101%);
-
 }
 
-
-
-
 /* Contact form */
-
 
 /* Global styles */
 .container-body {
@@ -641,41 +606,115 @@ h2 {
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
-  transition: background-color .4s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
 }
 
 .contact-form button:hover {
   background-color: #3a3939;
 }
 
-
-.contact-form-container{
-  transition: box-shadow .4s ease-in-out;
-
+.contact-form-container {
+  transition: box-shadow 0.4s ease-in-out;
 }
 
-.contact-form-container:hover{
+.contact-form-container:hover {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
-
 }
 
-.Manu-icon-btn{
-
+.Manu-icon-btn {
   position: absolute;
   visibility: collapse;
   z-index: 200;
   background-color: #000;
-  box-shadow: 0px 0px 0px 0px ;
+  box-shadow: 0px 0px 0px 0px;
   right: 0px;
 }
-.Manu-icon-btn img{
+.Manu-icon-btn img {
   width: 30px;
   height: 30px;
   border: none;
   filter: invert(1);
+}
 
+/* .Manu-icon-btn img; */
+
+
+/* latest section */
+
+
+
+
+
+.latest-projects{
+  background-color: #fafafa;
+  margin: 40px 0px;
+  height: 90vh;
+  width: 100vw;
+  border: 2px solid red;
+
+}
+
+.latest-projects-containers{
+  width: 100vw;
+  border: 2px solid rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.latest-projects a{
+  text-decoration: none;
+}
+.latest-projects h1{
+  color: #000;
+  display: flex;
+  justify-content: center;
+  margin: 3vh;
+}
+
+.latest-project-container{
+  border: 1px solid rgb(0, 0, 0);
+  width: 31%;
+  height: 69vh;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* align-items: center; */
 
 }
 
 
-.Manu-icon-btn img
+
+
+.img-latest-project-section{
+  /* border: 2px solid yellow; */
+  width: 92%;
+  height: 45vh;
+  /* display: flex: 1 1 auto;; */
+  border-radius: 15px;
+  margin: 20px auto;
+  margin-bottom: 10px;
+  background: url(images/pexels-mikhail-nilov-9242845.jpg) no-repeat center center/cover;
+}
+
+
+.info-latest-project-section{
+  /* border: 2px solid blue; */
+  width: 92%;
+  height: 25%;
+  margin: auto;
+  text-decoration: none;
+}
+
+
+.info-latest-project-section h1{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
