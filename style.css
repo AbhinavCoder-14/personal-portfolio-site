@@ -648,15 +648,15 @@ h2 {
 .latest-projects{
   background-color: #fafafa;
   margin: 40px 0px;
-  height: 90vh;
+  height: 80vh;
   width: 100vw;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 
 }
 
 .latest-projects-containers{
   width: 100vw;
-  border: 2px solid rgb(0, 0, 0);
+  /* border: 2px solid rgb(0, 0, 0); */
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -667,17 +667,18 @@ h2 {
 }
 .latest-projects h1{
   color: #000;
+  padding: 15px 0px;
   display: flex;
   justify-content: center;
   margin: 3vh;
 }
 
 .latest-project-container{
-  border: 1px solid rgb(0, 0, 0);
+  border: 1px solid rgb(182, 182, 182);
   width: 31%;
-  height: 69vh;
+  height: 58vh;
   background-color: rgb(255, 255, 255);
-  border-radius: 10px;
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -696,7 +697,7 @@ h2 {
   height: 45vh;
   /* display: flex: 1 1 auto;; */
   border-radius: 15px;
-  margin: 20px auto;
+  margin: 15px auto;
   margin-bottom: 10px;
   background: url(images/pexels-mikhail-nilov-9242845.jpg) no-repeat center center/cover;
 }
@@ -713,8 +714,23 @@ h2 {
 
 .info-latest-project-section h1{
   margin: 0px;
-  padding: 0px;
+  padding: 8px 0px;
   text-decoration: none;
   font-size: 30px;
 }
 
+
+.latest-projects a:hover{
+  text-decoration: none;
+}
+
+
+.latest-project-container{
+  transition: background-color .4 ease-in-out,box-shadow .4 ease-in-out;
+}
+
+.latest-project-container:hover{
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+
+  background-color: #fafafa;
+}
