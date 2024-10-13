@@ -54,7 +54,7 @@ body {
 }
 
 .nav-left {
-  width: 24%;
+  width: 20%;
   /* height: 10vh; */
   padding: 5px 0px;
   display: flex;
@@ -64,8 +64,8 @@ body {
 .nav-left .logo {
   /* height: 100px; */
   background: url(images/logo-potfolio-right.png);
-  height: 61px;
-  width: 61px;
+  height: 55px;
+  width: 55px;
   margin: auto;
   padding: auto;
   /* border: 1px solid #000000; */
@@ -117,7 +117,7 @@ body {
 }
 
 .nav-right {
-  width: 27%;
+  width: 19%;
   height: 7vh;
   display: flex;
   flex-direction: row;
@@ -350,7 +350,7 @@ body {
 }
 
 .skill-logo {
-  border: 2px solid rgba(0, 0, 0, 0.685);
+  border: 1px solid rgba(0, 0, 0, 0.685);
   height: 16vw;
   width: 13vw;
   border-radius: 12px;
@@ -405,7 +405,7 @@ body {
 .skill-logo:hover {
   cursor: pointer;
   background-color: #f0f0f0;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .footer-section {
@@ -649,13 +649,13 @@ h2 {
   background-color: #fafafa;
   margin: 40px 0px;
   height: 80vh;
-  width: 100vw;
+  width: 98vw;
   /* border: 2px solid red; */
 
 }
 
 .latest-projects-containers{
-  width: 100vw;
+  width: 98vw;
   /* border: 2px solid rgb(0, 0, 0); */
   display: flex;
   flex-direction: row;
@@ -676,7 +676,7 @@ h2 {
 .latest-project-container{
   border: 1px solid rgb(182, 182, 182);
   width: 31%;
-  height: 58vh;
+  height: 57vh;
   background-color: rgb(255, 255, 255);
   border-radius: 15px;
   display: flex;
@@ -699,7 +699,21 @@ h2 {
   border-radius: 15px;
   margin: 15px auto;
   margin-bottom: 10px;
-  background: url(images/pexels-mikhail-nilov-9242845.jpg) no-repeat center center/cover;
+}
+
+#img-latest-project-section1{
+  background: rgb(0, 0, 0, .9) url(/images/shopping\ website.jpeg) no-repeat center center/cover;
+
+}
+
+#img-latest-project-section2{
+  background: rgb(0, 0, 0, 0.2) url(/images/music-player-7792956_1920.jpg) no-repeat center center/cover;
+
+}
+
+#img-latest-project-section3{
+  background: rgba(0, 0, 0, 0.2) url(images/bank-6406011_1920.png) no-repeat center center/cover;
+
 }
 
 
@@ -716,7 +730,8 @@ h2 {
   margin: 0px;
   padding: 8px 0px;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 26px;
+  font-weight: 600;
 }
 
 
@@ -726,11 +741,12 @@ h2 {
 
 
 .latest-project-container{
-  transition: background-color .4 ease-in-out,box-shadow .4 ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .latest-project-container:hover{
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
-
   background-color: #fafafa;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
 }
+
+
