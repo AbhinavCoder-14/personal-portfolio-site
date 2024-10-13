@@ -396,7 +396,7 @@ body {
   background: url(images/css-logo.png) no-repeat center center/cover;
 }
 .skill-name {
-  margin: 5px 0px;
+  margin: 5px auto;
   font-size: 18px;
   color: black;
   font-weight: 600;
@@ -648,7 +648,7 @@ h2 {
 .latest-projects{
   background-color: #fafafa;
   margin: 40px 0px;
-  height: 80vh;
+  /* height: 80vh; */
   width: 98vw;
   /* border: 2px solid red; */
 
@@ -661,6 +661,9 @@ h2 {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-content: center;
 }
 .latest-projects a{
   text-decoration: none;
@@ -675,7 +678,7 @@ h2 {
 
 .latest-project-container{
   border: 1px solid rgb(182, 182, 182);
-  width: 31%;
+  width: 600px;
   height: 57vh;
   background-color: rgb(255, 255, 255);
   border-radius: 15px;
