@@ -760,4 +760,26 @@ h2 {
 
 .about-me{
   height: 65vh;
+  display: flex;
+}
+
+
+.para-side{
+  width: 60%;
+}
+
+
+.image-side{
+  width: 50%;
+}
+
+.about-title{
+  margin: 50px auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.about-me p{
+  padding: 40px;
 }
