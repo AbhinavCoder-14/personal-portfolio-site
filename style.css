@@ -20,7 +20,7 @@ body {
 }
 
 .invert1 {
-  filter: invert(1);
+  filter: invert(1); 
 }
 
 #navbar {
@@ -756,3 +756,8 @@ h2 {
 }
 
 
+
+
+.about-me{
+  height: 65vh;
+}
