@@ -35,11 +35,11 @@ This portfolio website serves as an online resume and a showcase for the project
 
 1. Clone the repository to your local machine:
     ```bash
-    git clone https://github.com/yourusername/portfolio-website.git
+    git clone https://github.com/AbhinavCoder-14/personal-portfolio-site
     ```
 2. Navigate into the project directory:
     ```bash
-    cd portfolio-website
+    cd personal-portfolio-site
     ```
 3. Open `index.html` in your web browser to view the website.
 
