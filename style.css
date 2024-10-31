@@ -235,7 +235,7 @@ body {
   justify-content: center;
 }
 
-.center-Profile-side .profile-logo {
+.profile-logo {
   border: 3px solid rgb(0, 0, 0);
   box-shadow: 2px 2px 6px 4px rgb(218 225 196);
   border-radius: 48%;
@@ -639,12 +639,12 @@ h2 {
 /* .Manu-icon-btn img; */
 
 
-/* latest section */
+/* latest projects section */
 
 
 
 
-
+/* 
 .latest-projects{
   background-color: #fafafa;
   margin: 40px 0px;
@@ -754,13 +754,14 @@ h2 {
   background-color: #fafafa;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
 }
+ */
 
 
 
-
-.about-me{
+ .about-me{
   height: 65vh;
   display: flex;
+
 }
 
 
@@ -774,7 +775,7 @@ h2 {
 }
 
 .about-title{
-  margin: 50px auto;
+  margin: 20px auto;
   text-align: center;
   font-weight: bold;
 }
@@ -782,4 +783,34 @@ h2 {
 
 .about-me p{
   padding: 40px;
+}
+
+
+
+
+
+.para-side p{
+  font-size: 2rem;
+    color: black;
+    font-weight: 400;
+}
+
+
+.about-me{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.about-logo-setting1{
+  height: 33vw;
+  width: 33vw;
+}
+
+.image-side{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
