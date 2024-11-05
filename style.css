@@ -742,17 +742,17 @@ h2 {
 }
 
 #img-latest-project-section1{
-  background: rgb(0, 0, 0, .9) url(images/shopping\ website.jpeg) no-repeat center center/cover;
+  background: rgb(0, 0, 0, .9) url(images/pexels-shattha-pilabut-38930-135620.jpg) no-repeat center center/cover;
 
 }
 
 #img-latest-project-section2{
-  background: rgb(0, 0, 0, 0.2) url(images/music-player-7792956_1920.jpg) no-repeat center center/cover;
+  background: rgb(0, 0, 0, 0.2) url(images/music-player-7792956_1921.jpg) no-repeat center center/cover;
 
 }
 
 #img-latest-project-section3{
-  background: rgba(0, 0, 0, 0.2) url(images/bank-6406011_1920.png) no-repeat center center/cover;
+  background: rgba(0, 0, 0, 0.2) url(images/x1.png) no-repeat center center/cover;
 
 }
 
@@ -792,10 +792,10 @@ h2 {
 
 
 
- .about-me{
-  height: 65vh;
-  display: flex;
+ .about-me {
 
+
+  border: 2px solid red;
 }
 
 
@@ -809,9 +809,10 @@ h2 {
 }
 
 .about-title{
-  margin: 20px auto;
+  margin: 4vh auto;
   text-align: center;
   font-weight: bold;
+  color: black;
 }
 
 
@@ -823,10 +824,11 @@ h2 {
 
 
 
-.para-side p{
-  font-size: 1.5rem;
-    color: black;
-    font-weight: 400;
+.para-side p {
+  font-size: 1.3rem;
+  color: black;
+  font-weight: 400;
+
 }
 
 
@@ -834,13 +836,17 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* height: 65vh; */
+  width: 80%;
+  margin: auto;
+  border: 2px solid red;
 }
 
 
 
 .about-logo-setting1{
-  height: 33vw;
-  width: 33vw;
+  height: 26vw;
+  width: 26vw;
 }
 
 .image-side{
