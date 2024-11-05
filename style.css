@@ -365,7 +365,7 @@ body {
 }
 
 .skills-logo-container {
-  min-height: 30vh;
+  /* min-height: 30vh; */
   display: flex;
   padding: 0 50px;
   justify-content: space-evenly;
