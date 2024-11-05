@@ -113,6 +113,31 @@
 /* For mobiles phones */
 
 @media only screen and (min-height: 650px) and (max-width: 1200px) {
+  
+  .about-me{
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .para-side {
+    width: 84%;
+}
+
+.about-logo-setting1 {
+  height: 43vw;
+  width: 43vw;
+}
+
+
+.para-side p {
+  font-size: 1rem;
+  color: black;
+  font-weight: 400;
+}
+.about-me p {
+  padding: 0px 11px;
+}
+  
   .skills-logo-container .skill-logo {
     width: 17vw;
   }
