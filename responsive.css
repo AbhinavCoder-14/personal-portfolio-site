@@ -269,6 +269,7 @@ font-weight: lighter;
 
   .nav-right {
     height: 5vh;
+    margin-bottom: 7px;
   }
 
   .Main-Content {
