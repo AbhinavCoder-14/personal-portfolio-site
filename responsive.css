@@ -2,7 +2,7 @@
   .skills-logo-container {
     flex-wrap: wrap;
     gap: 10px;
-    height: 260px;
+    height: 300px;
   }
 
   .skills-logo-container .skill-logo {
@@ -198,6 +198,10 @@
   }
   .latest-projects h1:nth-child(1){
     font-size: 24px;
+  }
+
+  .latest-projects h1{
+    margin: 1vh;
   }
 
 
