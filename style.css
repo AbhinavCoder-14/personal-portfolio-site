@@ -464,20 +464,23 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 190vh;
+  /* height: 190vh; */
   align-items: center;
 }
 
-.project-1 {
-  width: 90%;
-  border: 1px solid rgb(27, 27, 27);
 
-  height: 40%;
+.project-1 {
+  width: 93%;
+  border: 1px solid rgb(0, 0, 0);
+  height: 59vh;
   display: flex;
   flex-direction: row;
-  background-color: #f5f5f5;
+  background-color: #f9f9f9;
   margin: 20px 0px;
   border-radius: 20px;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
   transition: box-shadow 0.4s ease-in-out, transform 0.4s ease-in-out;
 }
 
@@ -487,8 +490,13 @@ body {
 }
 
 .project-img {
-  width: 40%;
+  align-items: center;
+  width: 43%;
+  height: 81%;
+  display: flex;
+  justify-content: center;
   /* border: 2px solid rgb(0, 217, 255); */
+  align-content: space-around;
 }
 
 .project-title {
@@ -508,26 +516,28 @@ body {
 }
 
 .project-title p {
-  font-size: 29px;
-  padding: 0px 40px;
+  font-size: 1.5rem;
+  padding: 0px 26px;
 }
 
 .project-img {
-  margin: 9px;
-  border-radius: 15px;
+  margin: 18px;
+  border-radius: 10px;
 }
 
+
+
 #project-1 .project-img {
-  background: url("images/pexels-vanessa-loring-7869134.jpg") center
+  background: url("images/pexels-shattha-pilabut-38930-135620.jpg") center
     center/cover;
 }
 
 #project-2 .project-img {
-  background: url("images/pexels-mikhail-nilov-9242845.jpg") center center/cover;
+  background: url(images/music-player-7792956_1921.jpg) no-repeat center center/cover;
 }
 
 #project-3 .project-img {
-  background: url("images/pexels-mikhail-nilov-7988747.jpg") center center/cover;
+  background: url("images/x1.png") center center/cover;
 }
 
 #project-4 .project-img {
@@ -540,22 +550,27 @@ body {
 }
 
 .project-info p {
-  font-size: 19px;
+  font-size: 22px;
   font-weight: 500;
-  margin: 21px 0px;
+  color: black;
+  margin: 27px 16px;
 }
+
 .project-info h1 {
-  margin: 20px 0px;
+  margin: 0px 15px;
 }
 
 .project-info a {
   background-color: black;
   color: rgb(255, 255, 255);
-  padding: 10px 10px;
+  padding: 14px 15px;
   border-radius: 4px;
+  font-size: 1.2rem;
+  font-weight: 500;
   text-decoration: none;
   transition: color 0.4s ease-in-out;
-  margin: 10px 0px;
+  margin: 10px 15px;
+  /* text-align: center; */
 }
 
 .project-info a:hover {
@@ -564,7 +579,7 @@ body {
 }
 
 .project-1:hover {
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
   transform: scale(101%);
 }
 
