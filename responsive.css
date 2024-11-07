@@ -5,6 +5,19 @@
     height: 300px;
   }
 
+  .para-side{
+    font-size: 1.3rem;
+  }
+
+
+  .image-side{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2vh 0px;
+  height: 35vh;
+}
+
   .skills-logo-container .skill-logo {
     width: 13vh;
   }
@@ -118,6 +131,16 @@
     flex-wrap: wrap;
     width: 100%;
   }
+  .para-side{
+    font-size: 1.3rem;
+  }
+  .image-side{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0px;
+  height: 35vh;
+}
   
   .para-side {
     width: 84%;
@@ -165,6 +188,18 @@
   .responsive-work {
     visibility: visible;
   }
+
+  .para-side{
+    font-size: 1rem;
+  }
+
+  .image-side{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0px;
+  height: 35vh;
+}
 
   .responsive-work {
     visibility: visible;
