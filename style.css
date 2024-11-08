@@ -3,6 +3,17 @@
   padding: 0px;
 }
 
+/* Hide scrollbar for all elements */
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
+}
+
+*::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
+
 body {
   box-sizing: border-box;
   font-family: "proxima nova light", "Helvetica Neue", Helvetica;
@@ -551,6 +562,7 @@ body {
 
 .project-info p {
   font-size: 22px;
+  text-align: justify;
   font-weight: 500;
   color: black;
   margin: 27px 16px;
@@ -580,7 +592,7 @@ body {
 
 .project-1:hover {
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
-  transform: scale(101%);
+  transform: scale(1.003);
 }
 
 /* Contact form */
@@ -816,6 +828,7 @@ h2 {
 
 .para-side{
   width: 60%;
+  text-align: justify;
 }
 
 
